@@ -30,7 +30,6 @@ jobs:
         key: ${{ secrets.SSH_PRIVATE_KEY }}
 
         script: |
-
           cd node-app
 
           git pull origin master
